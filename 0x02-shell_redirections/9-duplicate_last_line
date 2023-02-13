@@ -1,3 +1,2 @@
 #!/bin/bash
-last_line=$(tail -1 iacta)
-echo "$last_line" >> iacta
+tail -1 iacta >> iacta
