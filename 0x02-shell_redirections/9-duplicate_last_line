@@ -1,4 +1,2 @@
 #!/bin/bash
-iacta="9-duplicate_last_line"
-last_line=$(tail -n 1 "$iacta")
-echo "$last_line" >> "$iacta"
+tail -1 input_iacta >> input_iacta
